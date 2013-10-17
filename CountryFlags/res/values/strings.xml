@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista con imagenes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">Lista de Paises</string>
+    <string name="title_activity_mexico">Mexico</string>
+    <string name="title_activity_pakistan">Pakistan</string>
+    <string name="title_activity_sri_lanka">SriLanka</string>
+    <string name="title_activity_china">China</string>
+    <string name="title_activity_bangladesh">Bangladesh</string>
+    <string name="title_activity_nepal">Nepal</string>
+    <string name="title_activity_afghanistan">Afghanistan</string>
+    <string name="title_activity_north_korea">NorthKorea</string>
+    <string name="title_activity_south_korea">SouthKorea</string>
+    <string name="title_activity_japan">Japan</string>
+    <string name="play">Play</string>
+    <string name="Stop">Stop</string>
+    <string name="Pausa">Pausa</string>
+
+</resources>

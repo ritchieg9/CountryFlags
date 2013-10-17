@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.udg.cucei.cuceiMobile.Lista_con_imagenes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Mexico"
+            android:label="@string/title_activity_mexico" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Pakistan"
+            android:label="@string/title_activity_pakistan" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.SriLanka"
+            android:label="@string/title_activity_sri_lanka" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.China"
+            android:label="@string/title_activity_china" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Bangladesh"
+            android:label="@string/title_activity_bangladesh" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Nepal"
+            android:label="@string/title_activity_nepal" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Afghanistan"
+            android:label="@string/title_activity_afghanistan" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.NorthKorea"
+            android:label="@string/title_activity_north_korea" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.SouthKorea"
+            android:label="@string/title_activity_south_korea" >
+        </activity>
+        <activity
+            android:name="mx.udg.cucei.cuceiMobile.Lista_con_imagenes.Japan"
+            android:label="@string/title_activity_japan" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Mexico" >
+
+    <TextView
+        android:id="@+id/tituloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tituloc"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/btnplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/btninicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/Pausa" />
+
+        <Button
+            android:id="@+id/btnstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="@string/Stop" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/vol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="31dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vol"
+        android:layout_below="@+id/vol"
+        android:layout_marginTop="35dp"
+        android:text="México es una entidad política que nació en el siglo XIX. Desde su conformación como Estado federal, el nombre oficial del país es Estados Unidos Mexicanos, aunque la Constitución de 1824 usaba indistintamente las expresiones Nación Mexicana y Estados Unidos Mexicanos."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
